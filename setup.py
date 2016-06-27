@@ -8,7 +8,9 @@ setup(
     author='Thong Dong',
     author_email='thongdong7@gmail.com',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        'six==1.10.0',
+    ],
     entry_points={
         'console_scripts': [
         ],
